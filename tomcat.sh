@@ -1,4 +1,4 @@
-yum install java-17-amazon-corretto -y
+amazon-linux-extras install java-openjdk11 -y
 wget https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.11/bin/apache-tomcat-11.0.11.tar.gz
 tar -zxvf apache-tomcat-11.0.11.tar.gz
 sed -i '56  a\<role rolename="manager-gui"/>' apache-tomcat-11.0.11/conf/tomcat-users.xml
